@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; 
+// import './App.css'; 
 
 import {FirstPage} from './components/FirstPage'
 import {GamePage} from './components/GamePage'
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <FirstPage />
       <GamePage/>
-      {/* <Resultpage/> */}
+      <Resultpage/>
       
  
     </div>
